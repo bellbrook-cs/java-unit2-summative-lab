@@ -1,10 +1,51 @@
-# Template Assignment
+# Geometry Basics
 
 ## Problem Statement
 
+Read through the following instructions very carefully, and make sure you check the sample input/output section to be sure you are meeting the requirements.
+
+1. Your program should prompt the user for the users name.
+2. Your program should prompt the user for the radius of a circle. 
+3. Your program should prompt the user for the edge length of a cube.
+4. Your program should calculate (using Math class methods when appropriate) the diameter of the circle, area of the circle, and the volume of the cube.
+5. Your program should output the values you calculated in a similar format to the sample output below.
+6. The last line of your programs output should be `"Hope that helped ${name}!"` where `${name}` is the users name.
+
 ## Input Description
 
+The users name may or may not have a space on it.
+
+The radius of the circle may or may not be a double.
+
+The edge length of the cube will always be a whole number.
+
 ## Sample Input/Output
+
+### Sample run 1
+
+```
+What is your name: Mr. Mankin
+What is the radius of the sphere: 10.5
+What is the length of the cubes edge: 5
+
+The circles diameter of the circle is 21.0
+The circles area is 346.36059
+The volume of the cube is 125.0
+Hope that helped Mr. Mankin!
+```
+
+### Sample run 2
+
+```
+What is your name: Mr. Schultz
+What is the radius of the sphere: 2
+What is the length of the cubes edge: 2
+
+The circles diameter of the circle is 4.0
+The circles area is 12.56637
+The volume of the cube is 8.0
+Hope that helped Mr. Schultz!
+```
 
 ## Submission
 
@@ -19,46 +60,20 @@ Please submit the following to google classroom:
 
 ## Rubric
 
-<table>
-<tbody>
-  <tr>
-    <td valign="top"><b>Coded Solution</b><br><br>The coded solutions works correctly with no syntax, logic, or run-time errors.</td>
-    <td valign="top"><b>8pts</b><br><br>* The submitted code compiles successfully. <br><br>* The submitted program is free of run-time and logic errors. <br><br>* The submitted program returns the anticipated output for all input tested.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The submitted program compiles successfully. <br><br>* The submitted program includes run-time and/or logic errors that result in correct output. <br><br>* The submitted program returns the anticipated output for most (but not all) input tested.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* A program is submitted but it fails to compile. <br><br><b><em>or</em></b> <br><br>* The submitted program compiles correctly. <br><br>* The submitted program includes run-time and/or logic errors that result in incorrect output. <br><br>* The submitted program returns the anticipated output for less than half of the input tested.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Target Concepts</b><br><br>The program effectively uses the intended target concepts.</td>
-    <td valign="top"><b>8pts</b><br><br>* The program effectively uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Moderate effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Minimal effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b><br><br> * No attempt was made to use the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>User Interface</b><br><br>The program produces output that is easy for the user to read.</td>
-    <td valign="top"><b>2pts</b><br><br>* Output demonstrates appropriate spacing for best user readability. <br><br>* Output contains no spelling or grammatical errors.
-</td>
-    <td valign="top"><b>1pts</b><br><br>* Output includes minor spacing problems which results in information which is inconsistent or confusing. <br><br>* Output contains minor spelling or grammatical errors.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* Output includes major spacing problems which is severely inconsistent or confusing. <br><br>* Output contains major spelling or grammatical errors.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Readability of Code</b><br><br>The program code is documented and formatted for human readability.</td>
-    <td valign="top"><b>2pts</b><br><br>* The submitted solution includes the required header documentation (name, date, purpose). <br><br>* Header documentation includes appropriate modification comments if the submitted solution is a modification to a previously submitted program. <br><br>* Code is properly formatted. Open and close brackets are properly aligned and code within the brackets is appropriately indented. <br><br>* All variables are self-documented (i.e. named in such a way that the name indicates the purpose of the variable).
-</td>
-    <td valign="top"><b>1pts</b><br><br>* The submitted solution includes the some, but not ALL, of the required header documentation (name, date, purpose). <br><br>* In the case of modifications to a previously submitted program, modification comments are missing or incomplete. <br><br>* Code is unformatted and difficult to follow. Brackets aren't aligned and/or code within brackets is not indented. <br><br>* Numerous variable names are ambiguous (i.e. x) and do not indicate the purpose of the variable.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* The submitted solution includes no documentation of any kind.</td>
-  </tr>
-</tbody>
-</table>
+- 1 point for reading the users name into a variable.
+- 1 point for reading the radius into a variable.
+- 1 point for reading the edge length into a variable.
+- 1 point for calculating the diameter of a circle using a variable representing the radius.
+- 1 point for using all appropriate Math class methods when calculating the diameter of a circle.
+- 1 point for calculating the area of a circle using a variable representing the radius.
+- 1 point for using all appropriate Math class methods when calculating the area of a circle.
+- 1 point for calculating the volume of a cube using a variable representing the edge length.
+- 1 point for using all appropriate Math class methods when calculating the volume of a cube.
+- 1 point for displaying a prompt asking the user for their name.
+- 1 point for reading the users name from console immediately after prompting the user for their name.
+- 1 point for displaying a prompt asking the user for the circles radius.
+- 1 point for reading the radius from console immediately after prompting the user for the radius.
+- 1 point for displaying a prompt asking the user for the cubes edge length.
+- 1 point for reading the cubes edge length from console immediately after prompting the user for the edge length.
+- 1 point for displaying the messsage: `"Hope that helped ${name}!"` where `${name}` is the users name.
+- 4 points for following the discussed Code Style Guide, and all associated rules. Including but not limited to filling out the comments at the top of your program.
